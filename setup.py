@@ -31,7 +31,7 @@ readme = open('README.rst').read()
 history = open('HISTORY.rst').read().replace('.. :changelog:', '')
 
 setup(
-    name='django-elasticsearch-dsl',
+    name='lc-django-elasticsearch-dsl',
     version=version,
     description="""Wrapper around elasticsearch-dsl-py for django models""",
     long_description=readme + '\n\n' + history,
