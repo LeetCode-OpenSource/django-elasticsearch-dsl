@@ -8,7 +8,7 @@ try:
 except ImportError:
     from distutils.core import setup
 
-version = '6.4.2'
+version = '6.4.3'
 
 if sys.argv[-1] == 'publish':
     try:
@@ -31,12 +31,12 @@ readme = open('README.rst').read()
 history = open('HISTORY.rst').read().replace('.. :changelog:', '')
 
 setup(
-    name='django-elasticsearch-dsl',
+    name='lc-django-elasticsearch-dsl',
     version=version,
     description="""Wrapper around elasticsearch-dsl-py for django models""",
     long_description=readme + '\n\n' + history,
     author='Sabricot',
-    url='https://github.com/sabricot/django-elasticsearch-dsl',
+    url='https://github.com/LeetCode-OpenSource/django-elasticsearch-dsl',
     packages=[
         'django_elasticsearch_dsl',
     ],
